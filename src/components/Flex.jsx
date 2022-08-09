@@ -6,7 +6,7 @@ const StyledFlex = styled.div`
 	flex-direction: ${(props) => props.direction || 'row'};
 	justify-content: ${(props) => props.justify || 'stretch'};
 	align-items: ${(props) => props.align || 'stretch'};
-	margin: ${({ margin }) => margin || '0'};
+	margin: ${(props) => props.margin || '0'};
 `;
 
 export const Flex = (props) => {

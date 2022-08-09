@@ -49,14 +49,14 @@ const StyledButton = styled.button.attrs((props) => ({
 	${(props) =>
 		props.primary &&
 		css`
-			color: ${(props) => props.color || 'white'};
-			background: ${(props) => props.background || 'white'};
+			color: ${(props) => props.color || props.theme.colors.white};
+			background: ${(props) => props.background || props.theme.colors.white};
 		`}
 
 	${(props) =>
 		props.outlined &&
 		css`
-			color: ${(props) => props.color || 'white'};
+			color: ${(props) => props.color || props.theme.colors.white};
 			border-radius: 3px;
 			background: transparent;
 		`}

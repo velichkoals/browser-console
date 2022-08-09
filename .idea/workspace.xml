@@ -4,16 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="150e7cc4-1b71-41b7-9ba4-176325f7ce0f" name="Changes" comment="feat: create overlay components, figured out how to use styled-components">
-      <change afterPath="$PROJECT_DIR$/src/components/Button.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Console.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Flex.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Title.jsx" afterDir="false" />
+    <list default="true" id="150e7cc4-1b71-41b7-9ba4-176325f7ce0f" name="Changes" comment="feat: add Line component, add events">
+      <change afterPath="$PROJECT_DIR$/src/components/Line.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Button.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Console.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Console.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Flex.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Flex.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +67,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660029738692</updated>
-      <workItem from="1660029740129" duration="5894000" />
+      <workItem from="1660029740129" duration="8503000" />
     </task>
     <task id="LOCAL-00001" summary="init: start project">
       <created>1660047023730</created>
@@ -79,7 +76,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660047023730</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat: create overlay components, figured out how to use styled-components">
+      <created>1660051350683</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1660051350683</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,7 +103,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init: start project" />
     <MESSAGE value="feat: create overlay components, figured out how to use styled-components" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: create overlay components, figured out how to use styled-components" />
+    <MESSAGE value="feat: add Line component, add events" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add Line component, add events" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
